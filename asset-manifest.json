@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/portfolio-website/static/css/main.3b93d95c.css",
+    "main.js": "/portfolio-website/static/js/main.6f6a3eee.js",
+    "static/js/787.749b4a44.chunk.js": "/portfolio-website/static/js/787.749b4a44.chunk.js",
+    "static/media/wellness-technology-pic.png": "/portfolio-website/static/media/wellness-technology-pic.2ff94f17ad67dedf75df.png",
+    "static/media/fire-department.jpg": "/portfolio-website/static/media/fire-department.8ee1317bd19e9c790a45.jpg",
+    "static/media/headshot.png": "/portfolio-website/static/media/headshot.8abcee691053dc240e8c.png",
+    "static/media/calendar.jpg": "/portfolio-website/static/media/calendar.168619a42189d590ef71.jpg",
+    "static/media/block-background.jpg": "/portfolio-website/static/media/block-background.4bdc4f8e3f4494be2de4.jpg",
+    "static/media/logo.png": "/portfolio-website/static/media/logo.badd68af6b1e559c6130.png",
+    "index.html": "/portfolio-website/index.html",
+    "main.3b93d95c.css.map": "/portfolio-website/static/css/main.3b93d95c.css.map",
+    "main.6f6a3eee.js.map": "/portfolio-website/static/js/main.6f6a3eee.js.map",
+    "787.749b4a44.chunk.js.map": "/portfolio-website/static/js/787.749b4a44.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3b93d95c.css",
+    "static/js/main.6f6a3eee.js"
+  ]
+}
