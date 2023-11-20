@@ -1,0 +1,89 @@
+.contact-left{
+    flex-basis: 35%;
+}
+.contact-right{
+    flex-basis: 60%;
+}
+.contact-left p{
+    margin-top: 30px;
+}
+.contact-left p i{
+    color: #096A2E;
+    margin-right: 15px;
+    font-size: 25px;
+}
+.social-icons{
+    margin-top: 30px;
+}
+.social-icons a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 5px;
+    color: #006eff;
+    display: inline-block;
+    transition: transform 0.5s;
+}
+.social-icons img{
+    height: 25px;
+    width: auto;
+}
+.social-icons .fa-linkedin{
+    color: #014fb6;
+}
+.social-icons a:hover{
+    transform: translateY(-5px);
+}
+.btn{
+    display: block;
+    margin: 20px 0;
+    width: fit-content;
+    border: 1px solid #096A2E;
+    padding: 14px 50px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #fff;
+    transition: background 0.5s;
+}
+.btn:hover{
+    background: #096A2E;
+}
+.contact-right form{
+    width: 100%;
+}
+form input, form textarea{
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: #262626;
+    padding: 15px;
+    margin: 15px 0;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+}
+form .btn{
+    padding: 14px 60px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+    display: inline-block;
+    background: #080808;
+}
+#status-message{
+    color: #096A2E;
+    display: block;
+}
+.author{
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    background: #262626;
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 600px){
+    .contact-left, .contact-right{
+    flex-basis: 100%;
+    }
+}

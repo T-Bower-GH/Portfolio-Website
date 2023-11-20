@@ -1,0 +1,89 @@
+.navbar-container{
+    z-index: 1000;
+    position: fixed;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 10%;
+    width: 100%;
+    max-width: 2000px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.navbar-container .logo{
+    width: 180px;
+    border-radius: 5%;
+}
+.navbar-container ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+.navbar-container ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+}
+.navbar-container ul li a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #096A2E;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+.navbar-container ul li a:hover::after{
+    width: 100%;
+}
+
+/* ------Small screens------ */
+.navbar-container .fa-solid{
+    display: none;
+}
+
+@media only screen and (max-width: 600px){
+    .navbar-container{
+        width: 100%;
+    }
+    .navbar-container .fa-solid{
+        display: block;
+        font-size: 25px;
+        top: 20px;
+        left: 100%;
+        cursor: pointer;
+    }
+    .navbar-container ul{
+        background: #096A2E;
+        position: fixed;
+        top: 0;
+        transform: translateX(50%); /* Corrects offset from non-small screen settings */
+        right: -100px;
+        width: 200px;
+        height: 100vh;
+        padding-top: 50px;
+        z-index: 2;
+        transition: right .5s;
+    }
+    .navbar-container .mobile-menu-open{
+        right: 100px;
+    }
+    .navbar-container .mobile-menu-closed{
+        right: -200px;
+    }
+    .navbar-container ul li{
+        display: block;
+        margin: 25px;
+    }
+    .navbar-container ul .fa-solid{
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        cursor: pointer;
+    }
+}

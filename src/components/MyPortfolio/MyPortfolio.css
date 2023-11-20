@@ -1,0 +1,54 @@
+#portfolio{
+    padding: 50px 0;
+}
+#portfolio h1{
+    margin-bottom: 15px;
+}
+.carousel-description{
+    margin-top: 0;
+    font-size: 20px;
+}
+.carousel {
+    margin-top: 50px;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+.carousel-inner {
+    margin: 0 0px;
+    display: flex;
+    transition: transform 0.5s;
+}
+.carousel-slide {
+    flex: 0 0 calc(100%/4); /* Replace x in calc(100%/x) with number of slides to show at once */
+}
+.carousel-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    background-color: #096A2E;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 20px;
+    z-index: 1;
+}
+.next-button {
+    right: 0;
+}
+.prev-button {
+    left: 0;
+}
+
+/* ------Small screens------ */
+@media only screen and (max-width: 600px){
+    .carousel-slide {
+        flex: 0 0 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

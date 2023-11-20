@@ -1,0 +1,55 @@
+#header{
+    z-index: -10;
+    position: relative;
+    width: 100%;
+    height: 500px;
+    max-height: 80vh;
+    min-height: 350px;
+    background-image: url(../../images/block-background.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+.header-text{
+    position: fixed;
+    width: 80%;
+    max-width: 2000px;
+    margin-top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.header-text h1{
+    font-size: 30px;
+    margin-top: 10%;
+}
+.header-text p{
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: justify;
+}
+.header-text span{
+    color: #096A2E;
+}
+
+/* ------Small screens------ */
+@media only screen and (max-width: 600px){
+    #header{
+        width: 100%;
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+        margin: 0;
+        padding: 0;
+    }
+    .header-text{
+        margin-top: 20%;
+        font-size: 16px;
+    }
+    .header-text h1{
+        font-size: 20px;
+    }
+    .header-text p{
+        font-size: 16px;
+    }
+}
