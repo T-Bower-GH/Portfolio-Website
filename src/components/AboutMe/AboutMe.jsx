@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import React, {useState} from 'react';
 import './AboutMe.css';
 
 function AboutMe() {
@@ -13,22 +13,22 @@ function AboutMe() {
                         </div>
                         <div className="about-col-2">         
                             <h1>About Me</h1>  
-                            <p>Hi, I'm Trevor Bower! I am a software engineer, as well as a former first-responder and small business owner. When I'm not spending time with family, I'm sitting at my computer! Thank you for your interest. I can't wait to hear about your new project ideas!</p>  
+                            <p>Hi, I'm Trevor Bower! I'm a Data Analyst, as well as a former first-responder and small business owner. When I'm not spending time with family, I'm sitting at my computer! Thank you for your interest. I can't wait to hear about your potential projects!</p>  
                             <div className="tab-titles">
                                 <p className={`tab-links ${activeTab === 'skills' ? 'active-link': ''}`} onClick={() => setActiveTab('skills')}>Skills</p>
                                 <p className={`tab-links ${activeTab === 'education' ? 'active-link': ''}`} onClick={() => setActiveTab('education')}>Education</p>
                             </div>
                             <div className={`tab-contents ${activeTab === 'skills' ? 'active-tab' :''}`} id="skills">
                                 <ul>
-                                    <li><span>Frontend Development (Web Design)</span><br/>HTML, CSS, JavaScript</li>
-                                    <li><span>Backend & Application Development</span><br/>Java, Python, SQL</li>
-                                    <li><span>Other Skills</span><br/>Microsoft Office, Git/Github, WordPress, MailChimp, Canva</li>
+                                    <li><span>Programming Languages</span><br/>Python, R, Java, HTML, CSS, JavaScript</li>
+                                    <li><span>Analysis Tools</span><br/>SQL/MySQL/SQLite, Microsoft Excel, Tableau, Google Sheets</li>
+                                    <li><span>Other Tools</span><br/>Jupyter Notebooks, Microsoft Office, Git/Github, Canva</li>
                                 </ul>
                             </div>
                             <div className={`tab-contents ${activeTab === 'education' ? 'active-tab' :''}`} id="education">
                                 <ul>
-                                    <li><span>Bachelor of Science in Computer Science</span><br/>Western Governors University</li>
-                                    <li><span>ITIL® 4 Foundation - IT Service Management Certification</span><br/>AXELOS</li>
+                                    <li><span>Bachelor of Science: Computer Science</span><br/>Western Governors University</li>
+                                    <li><span>Google Data Analytics Certificate</span><br/>Coursera</li>
                                 </ul>
                             </div>
                         </div> 

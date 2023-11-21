@@ -4,7 +4,7 @@ function Footer() {
 
     return (
         <div className="author">
-            <p>Website made by Trevor Bower: Software Engineer.</p>
+            <p>Website made by Trevor Bower.</p>
         </div>
     );
 }
