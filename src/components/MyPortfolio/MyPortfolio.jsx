@@ -4,6 +4,7 @@ import PortfolioTab from './PortfolioTab/PortfolioTab';
 const wellnessTechnologyImg = require("../../images/wellness-technology-pic.png")
 const fireDepartmentImg = require("../../images/fire-department.jpg");
 const appointmentTrackerImg = require("../../images/calendar.jpg");
+const webScraperImg = require("../../images/web-scraper.png");
 
 function MyPortfolio() {
     // Define the data for each portfolio tab
@@ -32,6 +33,14 @@ function MyPortfolio() {
             isDownloadable: false,
             downloadLink: '',
         },
+        {
+            title: 'Web Scraper & Data Analysis with Excel',
+            imgSrc: webScraperImg,
+            description: 'Web scaper created using Python and BeautifulSoup to gather data from a web page, translate it into a DataFrame in pandas, and export it as an Excel spreadsheet. Includes example use to analyze trends in the largest companies in the U.S., including data cleaning, restructuring, and creating data visualizations within Excel.',
+            pageLink: 'https://www.kaggle.com/code/trevbower/python-web-scraper-using-beautifulsoup-pandas/edit/run/151882955',
+            isDownloadable: true,
+            downloadLink: 'https://www.dropbox.com/scl/fi/0vstvsrxxtxl4o7a2h0ml/Python-Web-Scraper-using-BeautifulSoup-Pandas.zip?rlkey=mnn17ymca03iq78glq4a2wwic&dl=1',
+        }
     ];
 
     return (
