@@ -3,7 +3,7 @@
 import React from 'react';
 import './PortfolioTab.css';
 
-function PortfolioTab({ title, imgSrc, description, pageLink, isDownloadable, downloadLink }) {
+function PortfolioTab({ title, imgSrc, description, isLinkAvailable, pageLink, isDownloadable, downloadLink }) {
     return (
         <div className="portfolio-tab">
             <div className="tab-content">
@@ -12,9 +12,11 @@ function PortfolioTab({ title, imgSrc, description, pageLink, isDownloadable, do
             </div>
             <div className="project-info">
                 <div><p>{description}</p></div>
-                <a className="page-link" href={pageLink} target="_blank" rel="noreferrer">
-                    Link: <span>{pageLink}</span>
-                </a>
+                {isLinkAvailable && (
+                    <a className="page-link" href={pageLink} target="_blank" rel="noreferrer">
+                        Link: <span>{pageLink}</span>
+                    </a>
+                )}
                 {isDownloadable && (
                     <a className="btn" href={downloadLink}>
                         Download

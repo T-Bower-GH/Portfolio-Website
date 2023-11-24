@@ -21,7 +21,7 @@ function AboutMe() {
                             <div className={`tab-contents ${activeTab === 'skills' ? 'active-tab' :''}`} id="skills">
                                 <ul>
                                     <li><span>Programming Languages</span><br/>Python, R, Java, HTML, CSS, JavaScript</li>
-                                    <li><span>Analysis Tools</span><br/>SQL/MySQL/SQLite, Microsoft Excel, Tableau, Google Sheets</li>
+                                    <li><span>Analysis Tools</span><br/>SQL/MySQL/SQLite, Microsoft Excel, Tableau, Power BI, Google Sheets</li>
                                     <li><span>Other Tools</span><br/>Jupyter Notebooks, Microsoft Office, Git/Github, Canva</li>
                                 </ul>
                             </div>
