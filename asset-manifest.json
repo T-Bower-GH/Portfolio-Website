@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/portfolio-website/static/css/main.3b93d95c.css",
-    "main.js": "/portfolio-website/static/js/main.15589fb2.js",
+    "main.css": "/portfolio-website/static/css/main.3b185908.css",
+    "main.js": "/portfolio-website/static/js/main.d10c2bad.js",
     "static/js/787.749b4a44.chunk.js": "/portfolio-website/static/js/787.749b4a44.chunk.js",
     "static/media/wellness-technology-pic.png": "/portfolio-website/static/media/wellness-technology-pic.2ff94f17ad67dedf75df.png",
+    "static/media/lightning-strike-dashboard.png": "/portfolio-website/static/media/lightning-strike-dashboard.82c56334686ae289c48e.png",
     "static/media/fire-department.jpg": "/portfolio-website/static/media/fire-department.8ee1317bd19e9c790a45.jpg",
     "static/media/web-scraper.png": "/portfolio-website/static/media/web-scraper.3eb11fed1aa353a9cced.png",
     "static/media/headshot.png": "/portfolio-website/static/media/headshot.8abcee691053dc240e8c.png",
@@ -12,12 +13,12 @@
     "static/media/logo.png": "/portfolio-website/static/media/logo.badd68af6b1e559c6130.png",
     "static/media/world-population-dashboard.png": "/portfolio-website/static/media/world-population-dashboard.629b19feb66cb153b5ab.png",
     "index.html": "/portfolio-website/index.html",
-    "main.3b93d95c.css.map": "/portfolio-website/static/css/main.3b93d95c.css.map",
-    "main.15589fb2.js.map": "/portfolio-website/static/js/main.15589fb2.js.map",
+    "main.3b185908.css.map": "/portfolio-website/static/css/main.3b185908.css.map",
+    "main.d10c2bad.js.map": "/portfolio-website/static/js/main.d10c2bad.js.map",
     "787.749b4a44.chunk.js.map": "/portfolio-website/static/js/787.749b4a44.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3b93d95c.css",
-    "static/js/main.15589fb2.js"
+    "static/css/main.3b185908.css",
+    "static/js/main.d10c2bad.js"
   ]
 }
