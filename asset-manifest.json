@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio-website/static/css/main.3b185908.css",
+    "main.css": "/portfolio-website/static/css/main.7e150891.css",
     "main.js": "/portfolio-website/static/js/main.d10c2bad.js",
     "static/js/787.749b4a44.chunk.js": "/portfolio-website/static/js/787.749b4a44.chunk.js",
     "static/media/wellness-technology-pic.png": "/portfolio-website/static/media/wellness-technology-pic.2ff94f17ad67dedf75df.png",
@@ -13,12 +13,12 @@
     "static/media/logo.png": "/portfolio-website/static/media/logo.badd68af6b1e559c6130.png",
     "static/media/world-population-dashboard.png": "/portfolio-website/static/media/world-population-dashboard.629b19feb66cb153b5ab.png",
     "index.html": "/portfolio-website/index.html",
-    "main.3b185908.css.map": "/portfolio-website/static/css/main.3b185908.css.map",
+    "main.7e150891.css.map": "/portfolio-website/static/css/main.7e150891.css.map",
     "main.d10c2bad.js.map": "/portfolio-website/static/js/main.d10c2bad.js.map",
     "787.749b4a44.chunk.js.map": "/portfolio-website/static/js/787.749b4a44.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3b185908.css",
+    "static/css/main.7e150891.css",
     "static/js/main.d10c2bad.js"
   ]
 }
