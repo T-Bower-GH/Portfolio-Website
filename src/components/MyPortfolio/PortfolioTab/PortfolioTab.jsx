@@ -1,5 +1,3 @@
-// PortfolioTab.js
-
 import React from 'react';
 import './PortfolioTab.css';
 
