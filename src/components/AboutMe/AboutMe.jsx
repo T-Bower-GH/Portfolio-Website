@@ -16,7 +16,7 @@ function AboutMe() {
                             <p>Hi, I'm Trevor Bower! I'm a Data Analyst, as well as a former first-responder and small business owner. When I'm not spending time with family, I'm sitting at my computer! Thank you for your interest. I can't wait to hear about your potential projects!</p>  
                             <div className="tab-titles">
                                 <p className={`tab-links ${activeTab === 'skills' ? 'active-link': ''}`} onClick={() => setActiveTab('skills')}>Skills</p>
-                                <p className={`tab-links ${activeTab === 'education' ? 'active-link': ''}`} onClick={() => setActiveTab('education')}>Education</p>
+                                <p className={`tab-links ${activeTab === 'education' ? 'active-link': ''}`} onClick={() => setActiveTab('education')}>Education & Certifications</p>
                             </div>
                             <div className={`tab-contents ${activeTab === 'skills' ? 'active-tab' :''}`} id="skills">
                                 <ul>
@@ -29,6 +29,7 @@ function AboutMe() {
                                 <ul>
                                     <li><span>Bachelor of Science: Computer Science</span><br/>Western Governors University</li>
                                     <li><span>Google Data Analytics Certificate</span><br/>Coursera</li>
+                                    <li><span>Google Advanced Data Analytics Certificate</span><br/>Coursera</li>
                                 </ul>
                             </div>
                         </div> 
