@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-website/static/css/main.05b4232e.css",
-    "main.js": "/portfolio-website/static/js/main.ede509ce.js",
+    "main.js": "/portfolio-website/static/js/main.62b5ffee.js",
     "static/js/787.749b4a44.chunk.js": "/portfolio-website/static/js/787.749b4a44.chunk.js",
     "static/media/wellness-technology-pic.png": "/portfolio-website/static/media/wellness-technology-pic.2ff94f17ad67dedf75df.png",
     "static/media/lightning-strike-dashboard.png": "/portfolio-website/static/media/lightning-strike-dashboard.82c56334686ae289c48e.png",
@@ -11,14 +11,15 @@
     "static/media/calendar.jpg": "/portfolio-website/static/media/calendar.168619a42189d590ef71.jpg",
     "static/media/block-background.jpg": "/portfolio-website/static/media/block-background.4bdc4f8e3f4494be2de4.jpg",
     "static/media/logo.png": "/portfolio-website/static/media/logo.badd68af6b1e559c6130.png",
+    "static/media/hr-analysis.jpg": "/portfolio-website/static/media/hr-analysis.6abd53a3130a3aa1b9a5.jpg",
     "static/media/world-population-dashboard.png": "/portfolio-website/static/media/world-population-dashboard.629b19feb66cb153b5ab.png",
     "index.html": "/portfolio-website/index.html",
     "main.05b4232e.css.map": "/portfolio-website/static/css/main.05b4232e.css.map",
-    "main.ede509ce.js.map": "/portfolio-website/static/js/main.ede509ce.js.map",
+    "main.62b5ffee.js.map": "/portfolio-website/static/js/main.62b5ffee.js.map",
     "787.749b4a44.chunk.js.map": "/portfolio-website/static/js/787.749b4a44.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.05b4232e.css",
-    "static/js/main.ede509ce.js"
+    "static/js/main.62b5ffee.js"
   ]
 }
