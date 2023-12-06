@@ -21,7 +21,7 @@ function MyPortfolio() {
             isDownloadable: true,
             downloadLink: 'https://www.dropbox.com/scl/fi/gd0c6vbar5t2bvad3obll/HR-Data-Analysis-with-Machine-Learning.zip?rlkey=1a9v9ygq2ucdrf5lku3d0iyc0&dl=1',
         },{
-            title: 'Business Marketing EDA',
+            title: 'End-to-End Marketing Data Analysis & Action Plan',
             imgSrc: wellnessTechnologyImg,
             description: 'My Google Data Analytics Certificate capstone project: I performed an analysis to help a business identify & improve marketing strategies by pulling public datasets, cleaning and formatting the data, analyzing it to identify trends and potential opportunties to take advantage of, prepared data visualizations, and communicated an action plan based on the results. This project was documented in a Jupyter Notebook through Kaggle using the R programming language.',
             isLinkAvailable: true,
