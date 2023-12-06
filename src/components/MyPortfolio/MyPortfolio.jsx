@@ -1,6 +1,7 @@
 import './MyPortfolio.css';
 import PortfolioTab from './PortfolioTab/PortfolioTab';
 
+const hrAnalysisImg = require("../../images/hr-analysis.jpg")
 const wellnessTechnologyImg = require("../../images/wellness-technology-pic.png")
 const fireDepartmentImg = require("../../images/fire-department.jpg");
 const appointmentTrackerImg = require("../../images/calendar.jpg");
@@ -12,7 +13,15 @@ function MyPortfolio() {
     // Define the data for each portfolio tab
     const tabsData = [
         {
-            title: 'Business Marketing EDA ',
+            title: 'HR Data Analysis with Machine Learning',
+            imgSrc: hrAnalysisImg,
+            description: 'My Google Advanced Data Analytics Certificate capstone project: I used company survey data to reduce churn by predicting if an employee was likely to leave the company using machine learning models such as Logistic Regression, Decision Tree, and Random Forest in a Python notebook.',
+            isLinkAvailable: true,
+            pageLink: 'https://www.kaggle.com/code/trevbower/hr-data-analysis-with-machine-learning',
+            isDownloadable: true,
+            downloadLink: 'https://www.dropbox.com/scl/fi/gd0c6vbar5t2bvad3obll/HR-Data-Analysis-with-Machine-Learning.zip?rlkey=1a9v9ygq2ucdrf5lku3d0iyc0&dl=1',
+        },{
+            title: 'Business Marketing EDA',
             imgSrc: wellnessTechnologyImg,
             description: 'My Google Data Analytics Certificate capstone project: I performed an analysis to help a business identify & improve marketing strategies by pulling public datasets, cleaning and formatting the data, analyzing it to identify trends and potential opportunties to take advantage of, prepared data visualizations, and communicated an action plan based on the results. This project was documented in a Jupyter Notebook through Kaggle using the R programming language.',
             isLinkAvailable: true,
