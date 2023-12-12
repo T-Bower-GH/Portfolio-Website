@@ -30,6 +30,7 @@ function AboutMe() {
                                     <li><span>Bachelor of Science: Computer Science</span><br/>Western Governors University</li>
                                     <li><span>Google Data Analytics Certificate</span><br/>Coursera</li>
                                     <li><span>Google Advanced Data Analytics Certificate</span><br/>Coursera</li>
+                                    <li><span>Microsoft Office Specialist: Excel 2019 Associate</span><br/>Microsoft</li>
                                 </ul>
                             </div>
                         </div> 
