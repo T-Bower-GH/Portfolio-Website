@@ -31,6 +31,7 @@ function AboutMe() {
                                     <li><span>Google Data Analytics Certificate</span><br/>Coursera</li>
                                     <li><span>Google Advanced Data Analytics Certificate</span><br/>Coursera</li>
                                     <li><span>Microsoft Office Specialist: Excel 2019 Associate</span><br/>Microsoft</li>
+                                    <li><span>Tableau Desktop Specialist</span><br/>Tableau</li>
                                 </ul>
                             </div>
                         </div> 
