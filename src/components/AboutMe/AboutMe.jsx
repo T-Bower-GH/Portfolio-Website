@@ -20,9 +20,9 @@ function AboutMe() {
                             </div>
                             <div className={`tab-contents ${activeTab === 'skills' ? 'active-tab' :''}`} id="skills">
                                 <ul>
-                                    <li><span>Programming Languages</span><br/>Python, R, Java, HTML, CSS, JavaScript</li>
-                                    <li><span>Analysis Tools</span><br/>SQL/MySQL/SQLite, Microsoft Excel, Tableau, Power BI, Google Sheets</li>
-                                    <li><span>Other Tools</span><br/>Jupyter Notebooks, Microsoft Office, Git/Github, Canva</li>
+                                    <li><span>Data Analysis Tools</span><br/>Microsoft Excel, SQL/MySQL/SQLite/SQL Server, Tableau, Power BI, Jupyter Notebooks, Google Sheets</li>
+                                    <li><span>Programming Languages</span><br/>Python(Pandas, PyPlot, Seaborn, SK-Learn), R, Java, JavaScript, HTML, CSS</li>
+                                    <li><span>Other Skills</span><br/>Microsoft Office, Git/GitHub, Canva, MailChimp, Salesforce, Presentation Skills, Business Acumen, Data-Driven Decision Making, Data Visualization, Data Cleaning, Problem Solving, Time Management, Resource Management, Crisis Management, Marketing, Sales, Communication</li>
                                 </ul>
                             </div>
                             <div className={`tab-contents ${activeTab === 'education' ? 'active-tab' :''}`} id="education">

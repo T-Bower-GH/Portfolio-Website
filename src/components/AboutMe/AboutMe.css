@@ -68,12 +68,6 @@
 .tab-contents.active-tab{
     display: block;
 }
-#education ul{
-    font-size: 18px;
-}
-#education li{
-    margin-bottom: 20px;
-}
 
 /* ------Small screens------ */
 @media only screen and (max-width: 600px){
