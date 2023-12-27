@@ -69,9 +69,6 @@ function ContactMe() {
                                 <img src={require('../../images/github-mark-white.png')} alt="GitHub Icon" />
                             </a>
                         </div>
-                        <a href="downloadables/Resume - Trevor Bower - Data Analyst.pdf" download className="btn">
-                            Download My Resume
-                        </a>
                     </div>
                     <div className="contact-right">
                         <form onSubmit={handleFormSubmit}>

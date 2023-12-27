@@ -28,6 +28,12 @@
     font-size: 18px;
     position: relative;
 }
+
+.navbar-container .btn{
+    background: #096A2E;
+    margin: auto;
+    padding: 14px 25px;
+}
 .navbar-container ul li a::after{
     content: '';
     width: 0;

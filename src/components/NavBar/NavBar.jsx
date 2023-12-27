@@ -22,6 +22,9 @@ function NavBar() {
                 <li><a href="#about">About</a></li>
                 <li><a href="#portfolio">Portfolio</a></li>
                 <li><a href="#contact">Contact</a></li>
+                <li><a href="downloadables/Resume - Trevor Bower - Data Analyst.pdf" download className="btn">
+                            Download My Resume
+                </a></li>
                 <i className="fa-solid fa-xmark" onClick={closeMobileMenu}>
                     <FontAwesomeIcon icon={faXmark}/>
                 </i>
